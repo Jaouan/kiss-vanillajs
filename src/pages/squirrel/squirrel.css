@@ -1,0 +1,27 @@
+#animal {
+  margin: auto;
+  width: 5em;
+}
+
+.loading-placeholder {
+  background: rgb(211, 211, 211);
+  animation: loading 1s infinite alternate-reverse ease-in-out;
+  border-radius: 4px;
+  transition: all 1s ease-in-out;
+  color: transparent;
+}
+
+.loading-placeholder-out {
+  animation: none;
+  background: rgb(211, 211, 211, 0);
+  color: unset;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

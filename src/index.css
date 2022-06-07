@@ -1,0 +1,44 @@
+body {
+  font-family: "Google Sans", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  transition: background 1s ease-in-out;
+}
+
+div[router] {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+div[router].route-out {
+  opacity: 0;
+}
+
+a,
+a:visited {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  background: rgb(255, 186, 198);
+  transition: background 0.5s ease-in-out;
+}
+a:hover,
+a:focus {
+  background: rgb(255, 213, 221);
+}
+a:active {
+  background: rgb(223, 115, 137);
+}
+
+.main-hi {
+  background: #d3faff;
+}
+.main-litle {
+  background: #efd3ff;
+}
+.main-squirrel {
+  background: #d7ffd3;
+}
